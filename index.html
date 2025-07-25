@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Our Gallery</h1>
+    <p>Explore photos from our team, events, and projects.</p>
+    <button id="darkToggle">Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <div class="gallery">
+      <!-- Image Cards -->
+      <div class="image-card fade-in"><img src="team.jpg" alt="Team"><span>Team</span></div>
+      <div class="image-card fade-in"><img src="internship.jpg" alt="Internship"><span>Internship</span></div>
+      <div class="image-card fade-in"><img src="remote.jpg" alt="Remote"><span>Remote Work</span></div>
+      <div class="image-card fade-in"><img src="dicussion.jpg" alt="Discussion"><span>Discussion</span></div>
+      <div class="image-card fade-in"><img src="workspace.jpg" alt="Workspace"><span>Workspace</span></div>
+      <div class="image-card fade-in"><img src="focus.jpg" alt="Focus"><span>Focus Time</span></div>
+      <div class="image-card fade-in"><img src="laptop.jpg" alt="Laptop"><span>Laptop Work</span></div>
+      <div class="image-card fade-in"><img src="presentation.jpg" alt="Presentation"><span>Presentation</span></div>
+      <div class="image-card fade-in"><img src="networking.jpg" alt="Networking"><span>Networking</span></div>
+    </div>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="Preview" />
+  </div>
+
+  <!-- Scroll-to-top -->
+  <button id="scrollTopBtn">&#8679;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
